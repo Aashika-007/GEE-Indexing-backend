@@ -45,7 +45,7 @@ def init_earth_engine():
 
             # -------- Local --------
             else:
-                ee.Initialize(project="flask-backend-478306")
+                ee.Initialize(project="gee-indexing-backend")
                 logger.info("Earth Engine initialized using local credentials.")
 
             _gee_initialized = True
